@@ -1,0 +1,88 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	color: #111111;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo {
+}
+
+.header-logo-link {
+	font-size: 25px;
+	font-weight: 700;
+	color: #111111;
+	transition: all 0.3s ease 0s;
+}
+
+.header-logo-link:hover {
+	color: #ffcc01;
+}
+
+.header-navigation {
+}
+
+.navigation-header {
+}
+
+.navigation-header-menu {
+	display: flex;
+	gap: 50px;
+}
+
+.navigation-header-item {
+}
+
+.navigation-header-link {
+	color: #1f373d;
+	transition: all 0.3s ease 0s;
+}
+
+.navigation-header-link:hover {
+	color: #ffcc01;
+}
+
+.header-buttons {
+	display: flex;
+}
+
+.header-button {
+	padding: 12px 18px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.header-button:hover {
+	background-color: #e0d8d8;
+}
+
+.header-button-yellow {
+	background-color: #ffcc01;
+}
+
+.header-button-yellow:hover {
+	opacity: 0.7;
+	background-color: #ffcc01;
+}
